@@ -5,7 +5,7 @@
 const propiedades_venta = [
   {
     nombre: "Casa moderna",
-    src: "https://picsum.photos/400/300?1",
+    src: "assets/img/casa_moderna.jpg",
     descripcion: "Hermosa casa moderna con jardín",
     ubicacion: "Las Condes",
     habitaciones: 3,
@@ -15,7 +15,7 @@ const propiedades_venta = [
   },
   {
     nombre: "Departamento céntrico",
-    src: "https://picsum.photos/400/300?2",
+    src: "assets/img/depto_centrico.webp",
     descripcion: "Ubicado en el centro de la ciudad",
     ubicacion: "Santiago Centro",
     habitaciones: 2,
@@ -25,7 +25,7 @@ const propiedades_venta = [
   },
   {
     nombre: "Casa familiar",
-    src: "https://picsum.photos/400/300?3",
+    src: "assets/img/casa_familiar.jpeg",
     descripcion: "Amplios espacios y patio trasero",
     ubicacion: "Maipú",
     habitaciones: 4,
@@ -35,7 +35,7 @@ const propiedades_venta = [
   },
   {
     nombre: "Penthouse de lujo",
-    src: "https://picsum.photos/400/300?4",
+    src: "assets/img/Penthouse_de_lujo.jpg",
     descripcion: "Vista panorámica increíble",
     ubicacion: "Vitacura",
     habitaciones: 3,
@@ -48,7 +48,7 @@ const propiedades_venta = [
 const propiedades_alquiler = [
   {
     nombre: "Depto pequeño",
-    src: "https://picsum.photos/400/300?5",
+    src: "assets/img/depto_pequeño.jpg",
     descripcion: "Ideal para estudiantes",
     ubicacion: "Ñuñoa",
     habitaciones: 1,
@@ -58,7 +58,7 @@ const propiedades_alquiler = [
   },
   {
     nombre: "Casa amplia",
-    src: "https://picsum.photos/400/300?6",
+    src: "assets/img/casa_amplia.webp",
     descripcion: "Perfecta para familia grande",
     ubicacion: "La Florida",
     habitaciones: 5,
@@ -68,7 +68,7 @@ const propiedades_alquiler = [
   },
   {
     nombre: "Loft moderno",
-    src: "https://picsum.photos/400/300?7",
+    src: "assets/img/loft.jpg",
     descripcion: "Estilo industrial",
     ubicacion: "Providencia",
     habitaciones: 2,
@@ -78,7 +78,7 @@ const propiedades_alquiler = [
   },
   {
     nombre: "Depto ejecutivo",
-    src: "https://picsum.photos/400/300?8",
+    src: "assets/img/Depto ejecutivo.webp",
     descripcion: "Cercano al metro",
     ubicacion: "Estación Central",
     habitaciones: 2,
