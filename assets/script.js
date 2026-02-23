@@ -143,21 +143,22 @@ function renderPropiedades(arreglo, contenedorId, limite = null) {
 
 document.addEventListener("DOMContentLoaded", () => {
 
-  const path = window.location.pathname;
+  const path = window.location.pathname.toLowerCase();
+  const filename = path.split("/").pop();
 
   // INDEX
-  if (path.includes("index.html") || path === "/" || path === "") {
+  if (filename === "index.html" || filename === "" || path.endsWith("/")) {
     renderPropiedades(propiedades_venta, "venta-container", 3);
     renderPropiedades(propiedades_alquiler, "alquiler-container", 3);
   }
 
   // VENTA
-  if (path.includes("propiedades_venta.html")) {
+  if (filename === "propiedades_venta.html") {
     renderPropiedades(propiedades_venta, "venta-container");
   }
 
   // ALQUILER
-  if (path.includes("propiedades_alquiler.html")) {
+  if (filename === "propiedades_alquiler.html") {
     renderPropiedades(propiedades_alquiler, "alquiler-container");
   }
 
